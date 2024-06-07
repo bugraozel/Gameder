@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:GamerChord}/data/gamerchord.sqlite",
+            "name": "users"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

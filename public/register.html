@@ -1,0 +1,50 @@
+<!-- public/register.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamerChord - Kaydol</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>GamerChord</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="login.html">Giriş Yap</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Kaydol</h2>
+        <form id="registerForm">
+            <label for="username">Kullanıcı Adı:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">E-posta Adresi:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Şifre:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="age">Yaş:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="gender">Cinsiyet:</label>
+            <input type="text" id="gender" name="gender" required>
+
+            <label for="city">Şehir:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="game">Oyun:</label>
+            <input type="text" id="game" name="game" required>
+
+            <label for="toxic_level">Toxiclik Seviyesi:</label>
+            <input type="number" id="toxic_level" name="toxic_level" required>
+
+            <button type="submit">Kaydol</button>
+        </form>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
